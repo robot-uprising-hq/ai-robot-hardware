@@ -28,8 +28,8 @@ You will need to print the following parts for the competition. You can design y
 * 1 x Body (accessorizable)
 * 1 x Top cover (accessorizable)
 * 1 x Aruco marker holder
-* 2 x Idler retainer
 * 2 x Drive wheel
+* 2 x Idler retainer
 * 2 x Track
 * 2 x Idler
 
