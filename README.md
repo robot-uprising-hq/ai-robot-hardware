@@ -57,11 +57,11 @@ https://www.digikey.fi/en/products/detail/jst-sales-america-inc/ASXHSXH22K305/66
 
 Separate parts below:
 
-3-pin JST XH Connector:
+3-pin JST XH 2.50mm pitch Connector for battery terminal:
 * Male 1 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/S3B-XH-A/1651048
 * Female 1 x https://www.digikey.fi/fi/products/detail/jst-sales-america-inc/XHP-2/555485
 
-2-pin JST PH 2.00mm pitch Connector Male:
+2-pin JST PH 2.00mm pitch Connector for motor terminals:
 * Male 2 x https://www.digikey.fi/fi/products/detail/jst-sales-america-inc/S2B-PH-SM4-TB/926655?s=N4IgTCBcDaIMpgEIFoAKAJZcCyAWZAKoiALoC%2BQA
 * Female 2 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/PHR-2/608607
 
