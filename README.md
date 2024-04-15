@@ -41,4 +41,22 @@ We recommend printing the parts in the given order as the latter parts are more 
  
 Also, feel free to design and print your own super exotic accessories or custom robot bodies for showing off between the matches, although you might not be allowed to use them in the competition. 
 
+## PCB Gerber files and Bill of Materials
+
+You can find Gerber files for the PCB in the folder "Gerber Files". You can upload the compressed file to a PCB manufacturers website (e.g. JLCPCB)
+
+Here's a Bill of materials and links to Digikey parts:
+* 1 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/S3B-XH-A/1651048
+* 2 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055
+* 1 x https://www.digikey.fi/en/products/detail/stmicroelectronics/L293D/634700
+* 1 x https://www.digikey.fi/en/products/detail/bel-fuse-inc/0ZCF0250FF2C/4156185
+* 1 x https://www.digikey.fi/en/products/detail/onsemi/MC7805CD2TR4G/919332
+* 2 x https://www.digikey.fi/en/products/detail/panasonic-electronic-components/ECA-1EM101B/268461
+* 1 x https://www.digikey.fi/en/products/detail/c-k/OS102011MA1QN1/1981430
+* 4 x https://www.digikey.fi/en/products/detail/liteon/LTST-C171KRKT/386801
+* 4 x https://www.digikey.fi/en/products/detail/stackpole-electronics-inc/RMCF0805FT330R/1760484
+* 1 x https://www.digikey.fi/en/products/detail/stackpole-electronics-inc/RMCF0805JT1K00/1757881
+* 1 x https://www.digikey.fi/en/products/detail/stackpole-electronics-inc/RMCF0805JT2K20/1757894
+
+
 
