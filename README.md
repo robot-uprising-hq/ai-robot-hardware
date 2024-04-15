@@ -45,13 +45,11 @@ Also, feel free to design and print your own super exotic accessories or custom 
 
 You can find Gerber files for the PCB in the folder "Gerber Files". You can upload the compressed file to a PCB manufacturers website (e.g. JLCPCB)
 
-Here's a Bill of materials and links to Digikey parts:
-
-## About cables and connectors
+### About cables and connectors
 
 We recommend getting JST XH connector assortment with crimp tool.
 The JST connectors require crimping the cable ends with a tool such as https://www.partco.fi/fi/tyoekalut/puristuspihdit/loput-puristuspihdit/11353-ht213.html. 
-Unless you're very much into crimping all the things, instead of buying the tool you can probably find one at your local university electronics lab, makerspace or [Hacklab](hacklab.fi).
+Unless you're very much into crimping all the things, instead of buying the tool you can probably find one at your local university electronics lab, makerspace or https://hacklab.fi.
 
 There are also preassembed wires:
 https://www.digikey.fi/en/products/detail/jst-sales-america-inc/ASXHSXH22K305/6684932
@@ -63,9 +61,9 @@ Separate parts below:
 * Male 1 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/S3B-XH-A/1651048
 * Female 1 x https://www.digikey.fi/fi/products/detail/jst-sales-america-inc/XHP-2/555485
 
-2-pin JST XH Connector Male:
-* Male 2 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055
-* Female 2 x https://www.digikey.fi/fi/products/detail/jst-sales-america-inc/XHP-3/1651017
+2-pin JST PH 2.00mm pitch Connector Male:
+* Male 2 x https://www.digikey.fi/fi/products/detail/jst-sales-america-inc/S2B-PH-SM4-TB/926655?s=N4IgTCBcDaIMpgEIFoAKAJZcCyAWZAKoiALoC%2BQA
+* Female 2 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/PHR-2/608607
 
 
 
@@ -96,7 +94,7 @@ RED clear 0805 SMD LED:
 2.2KOhm 0805 SMD resistor:
 * 1 x https://www.digikey.fi/en/products/detail/stackpole-electronics-inc/RMCF0805JT2K20/1757894
 
-## ESP32 and Batteries
+### ESP32 and Batteries
 
 ESP32-DEVKITC-32E:
 * 1 x https://www.digikey.fi/en/products/detail/espressif-systems/ESP32-DEVKITC-32E/12091810
