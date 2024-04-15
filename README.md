@@ -47,7 +47,7 @@ You can find Gerber files for the PCB in the folder "Gerber Files". You can uplo
 
 ### About cables and connectors
 
-We recommend getting JST XH connector assortment with crimp tool.
+We recommend getting JST XH (2.50mm pitch) and PH (2.00mm pitch) connector assortment with crimp tool.
 The JST connectors require crimping the cable ends with a tool such as https://www.partco.fi/fi/tyoekalut/puristuspihdit/loput-puristuspihdit/11353-ht213.html. 
 Unless you're very much into crimping all the things, instead of buying the tool you can probably find one at your local university electronics lab, makerspace or https://hacklab.fi.
 
