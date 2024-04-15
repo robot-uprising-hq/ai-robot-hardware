@@ -46,17 +46,70 @@ Also, feel free to design and print your own super exotic accessories or custom 
 You can find Gerber files for the PCB in the folder "Gerber Files". You can upload the compressed file to a PCB manufacturers website (e.g. JLCPCB)
 
 Here's a Bill of materials and links to Digikey parts:
-* 1 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/S3B-XH-A/1651048
-* 2 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055
+
+## About cables and connectors
+
+We recommend getting JST XH connector assortment with crimp tool.
+The JST connectors require crimping the cable ends with a tool such as https://www.partco.fi/fi/tyoekalut/puristuspihdit/loput-puristuspihdit/11353-ht213.html. 
+Unless you're very much into crimping all the things, instead of buying the tool you can probably find one at your local university electronics lab, makerspace or [Hacklab](hacklab.fi).
+
+There are also preassembed wires:
+https://www.digikey.fi/en/products/detail/jst-sales-america-inc/ASXHSXH22K305/6684932
+
+
+Separate parts below:
+
+3-pin JST XH Connector:
+* Male 1 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/S3B-XH-A/1651048
+* Female 1 x https://www.digikey.fi/fi/products/detail/jst-sales-america-inc/XHP-2/555485
+
+2-pin JST XH Connector Male:
+* Male 2 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/S2B-XH-A/1651055
+* Female 2 x https://www.digikey.fi/fi/products/detail/jst-sales-america-inc/XHP-3/1651017
+
+
+
+Dual H-bridge motor driver 293D:
 * 1 x https://www.digikey.fi/en/products/detail/stmicroelectronics/L293D/634700
+
+2.5A (Max Hold Current), 5A (Trip Current) 16V Fuse 2920 (7351 metric) package:
 * 1 x https://www.digikey.fi/en/products/detail/bel-fuse-inc/0ZCF0250FF2C/4156185
+
+7805 5V linear regulator (D2PAK Package):
 * 1 x https://www.digikey.fi/en/products/detail/onsemi/MC7805CD2TR4G/919332
+
+25V 100uF electrolytic THT capacitors:
 * 2 x https://www.digikey.fi/en/products/detail/panasonic-electronic-components/ECA-1EM101B/268461
+
+Slide switch (12V 100mA max current):
 * 1 x https://www.digikey.fi/en/products/detail/c-k/OS102011MA1QN1/1981430
+
+RED clear 0805 SMD LED:
 * 4 x https://www.digikey.fi/en/products/detail/liteon/LTST-C171KRKT/386801
+
+330Ohm 0805 SMD resistors:
 * 4 x https://www.digikey.fi/en/products/detail/stackpole-electronics-inc/RMCF0805FT330R/1760484
+
+1KOhm 0805 SMD resistor:
 * 1 x https://www.digikey.fi/en/products/detail/stackpole-electronics-inc/RMCF0805JT1K00/1757881
+
+2.2KOhm 0805 SMD resistor:
 * 1 x https://www.digikey.fi/en/products/detail/stackpole-electronics-inc/RMCF0805JT2K20/1757894
+
+## ESP32 and Batteries
+
+ESP32-DEVKITC-32E:
+* 1 x https://www.digikey.fi/en/products/detail/espressif-systems/ESP32-DEVKITC-32E/12091810
+
+
+Two 18650 Li-Ion batteries (we recommend >2200mAh, with protection circuit):
+* 2 x https://akkula.fi/tuote/xtar-18650-li-ion-akku-2600-mah-36v-suojapiiri-button-top/
+
+Li-Ion 18650 battery charger:
+* 1 x https://akkula.fi/tuote/xtar-mc2-plus-usb-pikalaturi-kahdelle-li-ion-akulle/
+
+18650 battery holder for two batteries:
+* 1 x https://akkula.fi/tuote/2-x-18650-asennuskotelo-johdoilla-max-1-a-virta/
 
 
 
