@@ -51,8 +51,19 @@ We recommend getting JST XH (2.50mm pitch) and PH (2.00mm pitch) connector assor
 The JST connectors require crimping the cable ends with a tool such as https://www.partco.fi/fi/tyoekalut/puristuspihdit/loput-puristuspihdit/11353-ht213.html. 
 Unless you're very much into crimping all the things, instead of buying the tool you can probably find one at your local university electronics lab, makerspace or https://hacklab.fi.
 
-There are also preassembed wires:
+There are also preassembed wires: (we recommend 12" ones so that they are long enough)
+
+XH:
+https://www.digikey.fi/en/products/filter/jumper-wires-pre-crimped-leads/453?s=N4IgTCBcDaIFYGcAuACAHgCxAXQL5A
+
+12" ones:
 https://www.digikey.fi/en/products/detail/jst-sales-america-inc/ASXHSXH22K305/6684932
+
+PH:
+https://www.digikey.fi/en/products/filter/jumper-wires-pre-crimped-leads/453?s=N4IgTCBcDaIFYGcAuACADgCxAXQL5A
+
+12" ones:
+https://www.digikey.fi/en/products/detail/jst-sales-america-inc/ASPHSPH24K305/6009459
 
 
 Separate parts below:
