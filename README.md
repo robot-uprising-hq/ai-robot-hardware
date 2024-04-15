@@ -65,8 +65,7 @@ https://www.digikey.fi/en/products/filter/jumper-wires-pre-crimped-leads/453?s=N
 12" ones:
 https://www.digikey.fi/en/products/detail/jst-sales-america-inc/ASPHSPH24K305/6009459
 
-
-Separate parts below:
+<br/><br/>
 
 3-pin JST XH 2.50mm pitch Connector for battery terminal:
 * Male 1 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/S3B-XH-A/1651048
@@ -76,7 +75,7 @@ Separate parts below:
 * Male 2 x https://www.digikey.fi/fi/products/detail/jst-sales-america-inc/S2B-PH-SM4-TB/926655?s=N4IgTCBcDaIMpgEIFoAKAJZcCyAWZAKoiALoC%2BQA
 * Female 2 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/PHR-2/608607
 
-
+<br/><br/>
 
 Dual H-bridge motor driver 293D:
 * 1 x https://www.digikey.fi/en/products/detail/stmicroelectronics/L293D/634700
