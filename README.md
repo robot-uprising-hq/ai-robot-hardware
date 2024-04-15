@@ -104,6 +104,9 @@ RED clear 0805 SMD LED:
 2.2KOhm 0805 SMD resistor:
 * 1 x https://www.digikey.fi/en/products/detail/stackpole-electronics-inc/RMCF0805JT2K20/1757894
 
+20-pin 2.54mm pitch female header (we need 19 pins for each side of ESP32 so trim one pin off):
+* 2 x https://www.digikey.fi/fi/products/detail/w%C3%BCrth-elektronik/61302011821/16608603?s=N4IgTCBcDaIGwEYDMAGMKEIBxgSAugL5A
+
 ### ESP32 and Batteries
 
 ESP32-DEVKITC-32E:
