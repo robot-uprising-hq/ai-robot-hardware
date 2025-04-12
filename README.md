@@ -32,7 +32,7 @@ If you need a 3D-printing guide, here is our guide: [3D-Printing Guide - Ultimak
 
 **Idler:** This is the non-driving wheel for the tracks, but it also doubles as a tensioner. Thanks to its eccentric shaft, it can be used to adjust the slack on the chain.
 
-**Idler retainer:** Idler retainer retains the idler :)
+**Idler retainer:** Idler retainer retains the idler :
 
 **Body:** This is the chassis of the robot. It houses all the parts. There are two versions of body. One is accessorizable and the other one is plain (located in Misc folder). As the name implies, accessorizable body is designed to fit accessories utilizing standard accessory connector.
 
