@@ -16,11 +16,13 @@ If you need a 3D-printing guide, here is our guide: [3D-Printing Guide - Ultimak
 - [Micro Invaders - Hardware](#micro-invaders---hardware)
 	- [Mechanical parts](#mechanical-parts)
 		- [Printing Checklist](#printing-checklist)
+		- [Accesories](#accesories)
 	- [Electronics](#electronics)
 		- [Driver PCBA](#driver-pcba)
 			- [PCB Gerber files and Bill of Materials](#pcb-gerber-files-and-bill-of-materials)
-			- [Bill of Materials](#bill-of-materials)
+			- [PCBA Bill of Materials](#pcba-bill-of-materials)
 		- [ESP32](#esp32)
+		- [Motors](#motors)
 		- [Batteries](#batteries)
 		- [Cables and connectors](#cables-and-connectors)
 
@@ -32,7 +34,7 @@ If you need a 3D-printing guide, here is our guide: [3D-Printing Guide - Ultimak
 
 **Idler:** This is the non-driving wheel for the tracks, but it also doubles as a tensioner. Thanks to its eccentric shaft, it can be used to adjust the slack on the chain.
 
-**Idler retainer:** Idler retainer retains the idler :
+**Idler retainer:** Idler retainer retains the idler :)
 
 **Body:** This is the chassis of the robot. It houses all the parts. There are two versions of body. One is accessorizable and the other one is plain (located in Misc folder). As the name implies, accessorizable body is designed to fit accessories utilizing standard accessory connector.
 
@@ -44,19 +46,25 @@ If you need a 3D-printing guide, here is our guide: [3D-Printing Guide - Ultimak
 
 You will need to print the following parts for the competition.
 
-- 1 x Body (accessorizable)
-- 1 x Top cover (accessorizable)
-- 1 x Aruco marker holder
-- 2 x Drive wheel
-- 2 x Idler retainer
-- 2 x Track
-- 2 x Idler
+| Amount | Part                       |
+| :----: | -------------------------- |
+|   1    | Body (accessorizable)      |
+|   1    | Top cover (accessorizable) |
+|   1    | Aruco marker holder        |
+|   2    | Drive wheel                |
+|   2    | Idler retainer             |
+|   2    | Track                      |
+|   2    | Idler                      |
 
-You can design and print your own front accessory as long as it complies with the [rules](https://github.com/robot-uprising-hq/ai-rules-mi2020).
+See folders `./Mechanics/Robot/STL` and `./Mechanics/Accessories/STL` for the STL-files for printing.
 
 We recommend printing the parts in the given order as the latter parts are more advanced, and you might benefit from the experience. 
  
 Also, feel free to design and print your own super exotic accessories or custom robot bodies for showing off between the matches, although you might not be allowed to use them in the competition. 
+
+### Accesories
+
+You can design and print your own front accessory as long as it complies with the [rules](https://github.com/robot-uprising-hq/ai-rules-mi2020).
 
 ## Electronics
 
@@ -66,11 +74,11 @@ Also, feel free to design and print your own super exotic accessories or custom 
 
 You can find Gerber files for the PCB in the folder "Gerber Files". You can upload the compressed file to a PCB manufacturers website (e.g. JLCPCB)
 
-#### Bill of Materials
+#### PCBA Bill of Materials
 
 ID matches the schema and the PCB silkscreen
 
-|         ID         | Description                                                                                                                                                                                                        | Amount |
+|         ID         | Description with link                                                                                                                                                                                              | Amount |
 | :----------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----: |
 |       C1, C2       | [25V 100uF electrolytic THT capacitor](https://www.digikey.fi/en/products/detail/panasonic-electronic-components/ECA-1EM101B/268461)                                                                               |   2    |
 |   D1, D2, D3, D4   | [RED clear 0805 SMD LED](https://www.digikey.fi/en/products/detail/liteon/LTST-C171KRKT/386801)                                                                                                                    |   4    |
@@ -84,23 +92,31 @@ ID matches the schema and the PCB silkscreen
 |    U2 (J4, J5)     | [For ESP-32 two 20-pin 2.54mm pitch female headers which needs to be trimmed to 19 pins](https://www.digikey.fi/fi/products/detail/w%C3%BCrth-elektronik/61302011821/16608603?s=N4IgTCBcDaIGwEYDMAGMKEIBxgSAugL5A) |   2    |
 |         U3         | [Dual H-bridge motor driver 293D](https://www.digikey.fi/en/products/detail/stmicroelectronics/L293D/634700)                                                                                                       |   1    |
 
-
 ### ESP32
 
 ESP32-DEVKITC-32E:
-* 1 x https://www.digikey.fi/en/products/detail/espressif-systems/ESP32-DEVKITC-32E/12091810
 
+- 1 x https://www.digikey.fi/en/products/detail/espressif-systems/ESP32-DEVKITC-32E/12091810
+
+### Motors
+
+Olimex LTD: MG-6-48
+
+- 2 x https://www.digikey.fi/en/products/detail/olimex-ltd/MG-6-48/21662315
 
 ### Batteries
 
 Two 18650 Li-Ion batteries (we recommend >2200mAh, with protection circuit):
-* 2 x https://akkula.fi/tuote/xtar-18650-li-ion-akku-2600-mah-36v-suojapiiri-button-top/
+
+- 2 x https://akkula.fi/tuote/xtar-18650-li-ion-akku-2600-mah-36v-suojapiiri-button-top/
 
 Li-Ion 18650 battery charger:
-* 1 x https://akkula.fi/tuote/xtar-mc2-plus-usb-pikalaturi-kahdelle-li-ion-akulle/
+
+- 1 x https://akkula.fi/tuote/xtar-mc2-plus-usb-pikalaturi-kahdelle-li-ion-akulle/
 
 18650 battery holder for two batteries:
-* 1 x https://akkula.fi/tuote/2-x-18650-asennuskotelo-johdoilla-max-1-a-virta/
+
+- 1 x https://akkula.fi/tuote/2-x-18650-asennuskotelo-johdoilla-max-1-a-virta/
 
 ### Cables and connectors
 
@@ -124,8 +140,8 @@ https://www.digikey.fi/en/products/detail/jst-sales-america-inc/ASPHSPH24K305/60
 
 
 3-pin JST XH 2.50mm pitch Connector for battery terminal:
-* Female 1 x https://www.digikey.fi/fi/products/detail/jst-sales-america-inc/XHP-2/555485
+- Female 1 x https://www.digikey.fi/fi/products/detail/jst-sales-america-inc/XHP-2/555485
 
 2-pin JST PH 2.00mm pitch Connector for motor terminals:
-* Female 2 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/PHR-2/608607
+- Female 2 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/PHR-2/608607
 
