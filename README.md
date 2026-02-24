@@ -56,7 +56,7 @@ You will need to print the following parts for the competition.
 |   2    | Track                      |
 |   2    | Idler                      |
 
-See folders `./Mechanics/Robot/STL` and `./Mechanics/Accessories/STL` for the STL-files for printing.
+See folders [Mechanics/Robot/STL](Mechanics/Robot/STL) and [Mechanics/Accessories/STL](Mechanics/Accessories/STL) for the STL-files for printing.
 
 We recommend printing the parts in the given order as the latter parts are more advanced, and you might benefit from the experience. 
  
@@ -72,7 +72,9 @@ You can design and print your own front accessory as long as it complies with th
 
 #### PCB Gerber files and Bill of Materials
 
-You can find Gerber files for the PCB in the folder "Gerber Files". You can upload the compressed file to a PCB manufacturers website (e.g. JLCPCB)
+You can find Gerber files for the PCB in the folder [Gerber Files](Electronics/Gerber%20Files). You can upload the compressed file to a PCB manufacturers website (e.g. JLCPCB)
+
+Connect the right motor to J2 and the left motor to J3. Ensure motors have the correct polarity before fully assembling the robot to avoid unnecessary disassembly.
 
 #### PCBA Bill of Materials
 
@@ -145,3 +147,10 @@ https://www.digikey.fi/en/products/detail/jst-sales-america-inc/ASPHSPH24K305/60
 2-pin JST PH 2.00mm pitch Connector for motor terminals:
 - Female 2 x https://www.digikey.fi/en/products/detail/jst-sales-america-inc/PHR-2/608607
 
+### Firmware
+
+There are two firmware repositories for this robot.
+- Control the robot using a computer: [github.com/robot-uprising-hq/ai-robot-udp](https://github.com/robot-uprising-hq/ai-robot-udp)
+	- Official firmware for receiving commands over WIFI (using UDP) and limited support for bluetooth
+- Control the robot using a gamepad: [github.com/zero-ones-given/bluetooth-gamepad-robot-firmware](https://github.com/zero-ones-given/bluetooth-gamepad-robot-firmware)
+	- Community built firmware for controlling the robot over bluetooth with a gamepad
