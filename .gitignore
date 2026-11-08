@@ -4,6 +4,7 @@
 
 # FreeCAD
 *.fcstd1
+*.FCBak
 
 # KiCad
 *-backups
